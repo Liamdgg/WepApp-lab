@@ -1,0 +1,132 @@
+{
+  "id": "c0299a65-bdbd-4510-9100-92d7f3692b34",
+  "collectionName": "lab9_practice",
+  "creatredOn": "2025-12-13T07:32:23.269Z",
+  "folders": [],
+  "requests": [
+    {
+      "url": "http://localhost:8080/api/auth/login",
+      "method": "POST",
+      "headers": {
+        "Accept": "*/*",
+        "User-Agent": "Postmate Client",
+        "Content-Type": "application/json"
+      },
+      "body": {
+        "json": {
+          "username": "admin",
+          "password": "password123"
+        },
+        "xml": "",
+        "x-www-form-urlencoded": {},
+        "plainText": ""
+      },
+      "tests": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "id": "57d22dec-6f15-42e8-95bd-c7ac57d92335",
+      "name": "test",
+      "collectionId": "c0299a65-bdbd-4510-9100-92d7f3692b34",
+      "containerId": "c0299a65-bdbd-4510-9100-92d7f3692b34",
+      "collectionName": "lab9_practice",
+      "bodyFormat": "json",
+      "preRequests": [],
+      "auth": {
+        "type": "none"
+      }
+    },
+    {
+      "url": "http://localhost:8080/api/auth/login",
+      "method": "POST",
+      "headers": {
+        "Accept": "*/*",
+        "User-Agent": "Postmate Client",
+        "Content-Type": "application/json"
+      },
+      "body": {
+        "json": {
+          "username": "admin",
+          "password": "password123"
+        },
+        "xml": "",
+        "x-www-form-urlencoded": {},
+        "plainText": ""
+      },
+      "tests": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "id": "d740a734-4c99-4364-afd1-1e98e199874a",
+      "name": "admin_login",
+      "collectionId": "c0299a65-bdbd-4510-9100-92d7f3692b34",
+      "containerId": "c0299a65-bdbd-4510-9100-92d7f3692b34",
+      "collectionName": "lab9_practice",
+      "bodyFormat": "json",
+      "preRequests": [],
+      "auth": {
+        "type": "none"
+      }
+    },
+    {
+      "url": "http://localhost:8080/api/auth/register",
+      "method": "POST",
+      "headers": {
+        "Accept": "*/*",
+        "User-Agent": "Postmate Client",
+        "Content-Type": "application/json"
+      },
+      "tests": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "id": "3a3d716b-6ffd-4127-b652-15a8f6e25622",
+      "name": "register",
+      "collectionId": "c0299a65-bdbd-4510-9100-92d7f3692b34",
+      "containerId": "c0299a65-bdbd-4510-9100-92d7f3692b34",
+      "collectionName": "lab9_practice",
+      "bodyFormat": "json",
+      "preRequests": [],
+      "auth": {
+        "type": "none"
+      },
+      "body": {
+        "json": {
+          "username": "testuser1",
+          "email": "test1@example.com",
+          "password": "password123",
+          "fullName": "Test User"
+        },
+        "xml": "",
+        "x-www-form-urlencoded": {},
+        "plainText": ""
+      }
+    },
+    {
+      "url": "http://localhost:8080/api/users",
+      "method": "GET",
+      "headers": {
+        "Accept": "*/*",
+        "User-Agent": "Postmate Client",
+        "Content-Type": "application/json"
+      },
+      "tests": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "id": "6816b2bd-dd71-45d9-b0f3-37a95a6b1fed",
+      "name": "protected_endpoint",
+      "collectionId": "c0299a65-bdbd-4510-9100-92d7f3692b34",
+      "containerId": "c0299a65-bdbd-4510-9100-92d7f3692b34",
+      "collectionName": "lab9_practice",
+      "bodyFormat": "json",
+      "preRequests": [],
+      "auth": {
+        "type": "bearer",
+        "token": ""
+      },
+      "body": {
+        "json": {},
+        "xml": "",
+        "x-www-form-urlencoded": {},
+        "plainText": ""
+      }
+    }
+  ]
+}
