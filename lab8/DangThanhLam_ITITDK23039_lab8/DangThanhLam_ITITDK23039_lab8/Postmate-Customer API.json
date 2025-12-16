@@ -1,0 +1,158 @@
+{
+  "id": "d097976d-d472-4d87-bd8a-cca91ae7dc92",
+  "collectionName": "Customer API",
+  "creatredOn": "2025-11-08T10:47:48.780Z",
+  "folders": [],
+  "requests": [
+    {
+      "url": "http://localhost:8080/api/customers",
+      "method": "GET",
+      "headers": {
+        "Accept": "*/*",
+        "User-Agent": "Postmate Client"
+      },
+      "tests": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "id": "7ffc7c1f-98ef-413b-b4f6-d71e89b343a4",
+      "name": "get",
+      "collectionId": "d097976d-d472-4d87-bd8a-cca91ae7dc92",
+      "containerId": "d097976d-d472-4d87-bd8a-cca91ae7dc92",
+      "collectionName": "Customer API",
+      "bodyFormat": "json",
+      "preRequests": [],
+      "auth": {
+        "type": "none"
+      },
+      "body": {
+        "json": {},
+        "xml": "",
+        "x-www-form-urlencoded": {},
+        "plainText": ""
+      }
+    },
+    {
+      "url": "http://localhost:8080/api/customers/1",
+      "method": "GET",
+      "headers": {
+        "Accept": "*/*",
+        "User-Agent": "Postmate Client"
+      },
+      "tests": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "id": "311dfdc1-e211-4751-b459-1b292490bb1c",
+      "name": "getId",
+      "collectionId": "d097976d-d472-4d87-bd8a-cca91ae7dc92",
+      "containerId": "d097976d-d472-4d87-bd8a-cca91ae7dc92",
+      "collectionName": "Customer API",
+      "bodyFormat": "json",
+      "preRequests": [],
+      "auth": {
+        "type": "none"
+      },
+      "body": {
+        "json": {},
+        "xml": "",
+        "x-www-form-urlencoded": {},
+        "plainText": ""
+      }
+    },
+    {
+      "url": "http://localhost:8080/api/customers",
+      "method": "POST",
+      "headers": {
+        "Accept": "*/*",
+        "User-Agent": "Postmate Client",
+        "Content-Type": "application/json"
+      },
+      "tests": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "id": "5cdd5761-de26-4274-b7f0-c5eb78823a75",
+      "name": "post",
+      "collectionId": "d097976d-d472-4d87-bd8a-cca91ae7dc92",
+      "containerId": "d097976d-d472-4d87-bd8a-cca91ae7dc92",
+      "collectionName": "Customer API",
+      "bodyFormat": "json",
+      "preRequests": [],
+      "auth": {
+        "type": "none"
+      },
+      "body": {
+        "json": {
+          "customerCode": "C006",
+          "fullName": "David Miller",
+          "email": "david.miller@example.com",
+          "phone": "+15550106789",
+          "address": "999 Broadway, Seattle, WA 98101"
+        },
+        "xml": "",
+        "x-www-form-urlencoded": {},
+        "plainText": ""
+      }
+    },
+    {
+      "url": "http://localhost:8080/api/customers/7",
+      "method": "PUT",
+      "headers": {
+        "Accept": "*/*",
+        "User-Agent": "Postmate Client",
+        "Content-Type": "application/json"
+      },
+      "body": {
+        "json": {
+          "customerCode": "C006",
+          "fullName": "David Miller Jr.",
+          "email": "david.miller.jr@example.com",
+          "phone": "+1555010789",
+          "address": "1000 Broadway, Seattle, WA 98101"
+        },
+        "xml": "",
+        "x-www-form-urlencoded": {},
+        "plainText": ""
+      },
+      "tests": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "id": "c7319201-8360-4734-b1be-3fa7acf38312",
+      "name": "put",
+      "collectionId": "d097976d-d472-4d87-bd8a-cca91ae7dc92",
+      "containerId": "d097976d-d472-4d87-bd8a-cca91ae7dc92",
+      "collectionName": "Customer API",
+      "bodyFormat": "json",
+      "preRequests": [],
+      "auth": {
+        "type": "none"
+      }
+    },
+    {
+      "url": "http://localhost:8080/api/customers/7",
+      "method": "DELETE",
+      "headers": {
+        "Accept": "*/*",
+        "User-Agent": "Postmate Client",
+        "Content-Type": "application/json"
+      },
+      "tests": [],
+      "preRequestScript": "",
+      "testScript": "",
+      "id": "d8c98b15-0638-4d23-b1b6-fae086a2b6a2",
+      "name": "delete",
+      "collectionId": "d097976d-d472-4d87-bd8a-cca91ae7dc92",
+      "containerId": "d097976d-d472-4d87-bd8a-cca91ae7dc92",
+      "collectionName": "Customer API",
+      "bodyFormat": "json",
+      "preRequests": [],
+      "auth": {
+        "type": "none"
+      },
+      "body": {
+        "json": {},
+        "xml": "",
+        "x-www-form-urlencoded": {},
+        "plainText": ""
+      }
+    }
+  ]
+}
